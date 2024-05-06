@@ -6,7 +6,7 @@ class Calculator(tk.Tk):
         super().__init__()
 
         self.title("Calculator")
-        self.geometry("410x510")
+        self.geometry("400x520")
 
         self.result_var = tk.StringVar()
 
